@@ -1,0 +1,865 @@
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô
+
+Connected
+
+Data packet 0 32
+> sendData: 0 2
+0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–c
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–c
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–c
+
+Connected
+
+Data packet 0 57
+[WiFiEsp] TIMEOUT: 57
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:4
+
+OK
+No start tag found: 0
+---------------------------------------------- > 
+
+Not connected
+Attempting MQTT connection...[WiFiEsp] Connecting to 52.31.15.152
+> startClient 52.31.15.152 19257
+----------------------------------------------
+>> AT+CIPSTART=0,"TCP","52.31.15.152",19257
+0,CONNECT
+
+OK
+---------------------------------------------- > 0
+
+> sendData: 0 50
+
+OK
+> 
+Recv 50 bytes
+0,CLOSED
+SEND FAIL
+[WiFiEsp] >>> TIMEOUT >>>
+[WiFiEsp] Data packet send error (2)
+[WiFiEsp] Failed to write to socket 0
+[WiFiEsp] Disconnecting  0
+> stopClient 0
+----------------------------------------------
+>> AT+CIPCLOSE=0
+UNLINK
+
+ERROR
+---------------------------------------------- > 1
+
+failed, rc=-4 try again in 5 seconds
+Attempting MQTT connection...[WiFiEsp] Connecting to 52.31.15.152
+> startClient 52.31.15.152 19257
+----------------------------------------------
+>> AT+CIPSTART=0,"TCP","52.31.15.152",19257
+0,CONNECT
+
+OK
+---------------------------------------------- > 0
+
+> sendData: 0 50
+
+OK
+> 
+Recv 50 bytes
+
+SEND OK
+
+Data packet 0 4
+connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"«
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–c
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–c
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–c
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–c
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–c
+
+Connected
+
+Data packet 0 57
+[WiFiEsp] TIMEOUT: 25
+<PAUSE HERE>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–c
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–c
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–c
+
+Connected
+
+Data packet 0 15
+
+
+
+
+
+
+
+
+
+
+
+
+
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+
++IPD,0,21,52.31.15.152,19257:0
+
++CIPSTATC5,[WiFiEsp] >>> TIMEOUT >>>
+[WiFiEsp] No tag found
+---------------------------------------------- > 
+
+Not connected
+Attempting MQTT connection...[WiFiEsp] Connecting to 52.31.15.152
+> startClient 52.31.15.152 19257
+----------------------------------------------
+>> AT+CIPSTART=0,"TCP","52.31.15.152",19257
+ALREADY CONNECTED
+
+ERROR
+---------------------------------------------- > 1
+
+failed, rc=-2 try again in 5 seconds
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+
++IPD,0,31,52.31.15.152,19257:0
+[WiFiEsp] >>> TIMEOUT >>>
+[WiFiEsp] No tag found
+---------------------------------------------- > 
+
+Not connected
+Attempting MQTT connection...[WiFiEsp] Connecting to 52.31.15.152
+> startClient 52.31.15.152 19257
+----------------------------------------------
+>> AT+CIPSTART=0,"TCP","52.31.15.152",19257
+ALREADY CONNECTED
+
+ERROR
+---------------------------------------------- > 1
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–c
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–c
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+
++IPD,0,31,52.31.15.152,19257:0
+[WiFiEsp] >>> TIMEOUT >>>
+[WiFiEsp] No tag found
+---------------------------------------------- > 
+
+Not connected
+Attempting MQTT connection...[WiFiEsp] Connecting to 52.31.15.152
+> startClient 52.31.15.152 19257
+----------------------------------------------
+>> AT+CIPSTART=0,"TCP","52.31.15.152",19257
+ALREADY CONNECTED
+
+ERROR
+---------------------------------------------- > 1
+
+failed, rc=-2 try again in 5 seconds
+> getClientState 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–c
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–c
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+
++IPD,0,31,52.31.15.152,19257:0
+[WiFiEsp] >>> TIMEOUT >>>
+[WiFiEsp] No tag found
+---------------------------------------------- > 
+
+Not connected
+Attempting MQTT connection...[WiFiEsp] Connecting to 52.31.15.152
+> startClient 52.31.15.152 19257
+----------------------------------------------
+>> AT+CIPSTART=0,"TCP","52.31.15.152",19257
+ALREADY CONNECTED
+
+ERROR
+---------------------------------------------- > 1
+
+failed, rc=-2 try again in 5 seconds
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"„
+
+Connected
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–
+
+Connected
+
+Data packet 0 48
+[WiFiEsp] TIMEOUT: 37
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–
+
+Connected
+
+Data packet 0 48
+[WiFiEsp] TIMEOUT: 16
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:4
+
+OK
+No start tag found: 0
+---------------------------------------------- > 
+
+Not connected
+Attempting MQTT connection...[WiFiEsp] Connecting to 52.31.15.152
+> startClient 52.31.15.152 19257
+----------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–
+
+Connected
+
+Data packet 0 48
+[WiFiEsp] TIMEOUT: 27
+
+<pause>
+
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:4
+
+OK
+No start tag found: 0
+---------------------------------------------- > 
+
+Not connected
+Attempting MQTT connection...[WiFiEsp] Connecting to 52.31.15.152
+> startClient 52.31.15.152 19257
+----------------------------------------------
+>> AT+CIPSTART=0,"TCP","52.31.15.152",19257
+0,CONNECT
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–
+
+Connected
+
+Data packet 0 48
+[WiFiEsp] TIMEOUT: 48
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+---------------------------------------------- > "TCP"6!Ô–!Ô–
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"6!Ô–!Ô–
+
+Connected
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+
++IPD,0,48,52.31.15.152,19257:0.
+[WiFiEsp] >>> TIMEOUT >>>
+[WiFiEsp] No tag found
+---------------------------------------------- > 
+
+Not connected
+Attempting MQTT connection...[WiFiEsp] Connecting to 52.31.15.152
+> startClient 52.31.15.152 19257
+----------------------------------------------
+>> AT+CIPSTART=0,"TCP","52.31.15.152",19257
+ALREADY CONNECTED
+
+ERROR
+---------------------------------------------- > 1
+
+failed, rc=-2 try again in 5 seconds
+
+Data packet 0 48
+> sendData: 0 2
+0.	testtopicHello!!!!!!!!!!!!!!
+OK
+> 
+Recv 2 bytes
+
+SEND OK
+[WiFiEsp] TIMEOUT: 16
+> getClientState 0
+----------------------------------------------
+>> AT+CIPSTATUS
+STATUS:3
++CIPSTATUS:0,"TCP","52.31.15.152",19257,0
+
+OK
+---------------------------------------------- > "TCP"
+
+Connected
+> getClientState 0
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
